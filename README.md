@@ -746,6 +746,8 @@ final修饰的变量如果赋值的内容需要执行指令才能得出结果，
 
 类加载器的详细信息可以通过Arthas的classloader命令查看：
 
+> java -jar arthas-boot.jar
+>
 > `classloader` - 查看 classloader 的继承树，urls，类加载信息，使用 classloader 去 getResource
 
 ![img](./assets/1732632836757-57.png)
