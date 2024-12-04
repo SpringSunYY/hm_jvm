@@ -10,7 +10,7 @@ import java.io.IOException;
  */
 public class Demo1 extends ClassLoader {
     public static void main(String[] args) throws IOException {
-        System.in.read();
+//        System.in.read();
         Demo1 demo1 = new Demo1();
         int count = 0;
         while (true) {

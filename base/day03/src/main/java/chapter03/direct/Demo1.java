@@ -14,15 +14,15 @@ public class Demo1 {
     public static int count = 0;
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        System.in.read();
+//        System.in.read();
         while (true) {
             //1.创建DirectByteBuffer对象并返回
             //2.在DirectByteBuffer构造方法中，向操作系统申请直接内存空间
             ByteBuffer directBuffer = ByteBuffer.allocateDirect(size);
-            directBuffer = null;
+//            directBuffer = null;
 
-//            list.add(directBuffer);
-//            System.out.println(++count);
+            list.add(directBuffer);
+            System.out.println(++count);
 //            Thread.sleep(5000);
         }
 

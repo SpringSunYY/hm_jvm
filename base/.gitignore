@@ -28,7 +28,7 @@ target/
 
 ### JRebel ###
 rebel.xml
-
+!*/target
 ### NetBeans ###
 nbproject/private/
 build/*
@@ -44,5 +44,8 @@ nbdist/
 *.swp
 
 !*/build/*.java
+!*/build/*.class
+!*/build/
 !*/build/*.html
-!*/build/*.xml
+!*/build/*.xml!
+/day03/target/

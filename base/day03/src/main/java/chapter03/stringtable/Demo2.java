@@ -10,5 +10,6 @@ public class Demo2 {
         String c = "12";
         String d = a + b;
         System.out.println(c == d);
+        System.out.println(c.equals(d));
     }
 }
