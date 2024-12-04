@@ -19,8 +19,8 @@ public class SoftReferenceDemo2 {
 //
         byte[] bytes3 = new byte[1024 * 1024 * 100];
         softReference = null;
-//        System.gc();
+        System.gc();
 //
-//        System.in.read();
+        System.in.read();
     }
 }
