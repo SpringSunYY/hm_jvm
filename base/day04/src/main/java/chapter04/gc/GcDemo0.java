@@ -16,7 +16,7 @@ public class GcDemo0 {
         List<Object> list = new ArrayList<>();
         int count = 0;
         while (true){
-//            System.in.read();
+            System.in.read();
             System.out.println(++count);
             //每次添加1m的数据
             list.add(new byte[1024 * 1024 * 1]);
