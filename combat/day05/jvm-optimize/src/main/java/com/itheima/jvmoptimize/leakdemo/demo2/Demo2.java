@@ -9,7 +9,7 @@ public class Demo2 {
     public static void main(String[] args) throws InterruptedException {
         while (true){
             if(count++ % 100 == 0){
-                Thread.sleep(10);
+                Thread.sleep(1);
             }
             Student student = new Student();
             student.setId(1);

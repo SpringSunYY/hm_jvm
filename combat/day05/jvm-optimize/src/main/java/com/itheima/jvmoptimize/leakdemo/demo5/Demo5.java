@@ -17,7 +17,5 @@ public class Demo5 {
             });
             Thread.sleep(10);
         }
-
-
     }
 }

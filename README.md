@@ -3825,6 +3825,10 @@ arthas:
 
 `nohup java -jar -Darthas.enable-detail-pages=true arthas-tunnel-server.3.7.1-fatjar.jar & ` 命令启动该程序。`-Darthas.enable-detail-pages=true`参数作用是可以有一个页面展示内容。通过`服务器ip地址:8080/apps.html`打开页面，目前没有注册上来任何应用。
 
+```
+java -jar arthas-tunnel-server-3.7.1-fatjar.jar -Darthas.enable-detail-pages=true
+```
+
 ![img](./assets/1733411770304-25.png)
 
 启动spring boot应用，如果在一台服务器上，注意区分端口。

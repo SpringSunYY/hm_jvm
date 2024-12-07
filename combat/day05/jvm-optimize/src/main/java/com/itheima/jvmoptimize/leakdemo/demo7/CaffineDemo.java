@@ -8,7 +8,7 @@ import java.time.Duration;
 public class CaffineDemo {
     public static void main(String[] args) throws InterruptedException {
         Cache<Object, Object> build = Caffeine.newBuilder()
-                 .expireAfterWrite(Duration.ofMillis(100))
+//                 .expireAfterWrite(Duration.ofMillis(100))
                 .build();
         int count = 0;
         while (true){
