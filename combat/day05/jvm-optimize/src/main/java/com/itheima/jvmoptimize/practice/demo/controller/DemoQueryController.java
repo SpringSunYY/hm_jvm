@@ -31,7 +31,8 @@ public class DemoQueryController {
      */
     @GetMapping
     public ResponseEntity<Page<TbArticle>> queryByPage(TbArticle tbArticle, int page,int size) {
-//        size = Math.min(100,size);
+        System.out.println("size = " + size);
+        size = Math.min(100,size);
         return ResponseEntity.ok(this.articleService.queryByPage(tbArticle, PageRequest.of(page,size)));
     }
 

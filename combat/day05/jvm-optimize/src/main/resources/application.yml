@@ -22,9 +22,9 @@ spring:
     name: jvm-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/jvm_test?serverTimeZone=UTC&useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/syy_jvm_test?serverTimeZone=UTC&useUnicode=true&characterEncoding=UTF-8
     username: root
-    password: 123456
+    password: yy0908..
 #    url: jdbc:mysql://rm-cn-zpr3eymps0008cso.rwlb.rds.aliyuncs.com:3306/jvm?serverTimeZone=UTC&useUnicode=true&characterEncoding=UTF-8
 #    url: jdbc:mysql://rm-cn-zpr3eymps0008c.rwlb.rds.aliyuncs.com:3306/jvm?serverTimeZone=UTC&useUnicode=true&characterEncoding=UTF-8
 #    username: jvm
