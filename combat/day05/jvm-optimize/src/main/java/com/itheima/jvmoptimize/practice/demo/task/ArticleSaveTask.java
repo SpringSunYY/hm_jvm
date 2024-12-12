@@ -3,16 +3,19 @@ package com.itheima.jvmoptimize.practice.demo.task;
 import com.itheima.jvmoptimize.practice.demo.pojo.ArticleDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 
 import static com.itheima.jvmoptimize.practice.demo.config.ThreadPoolTaskConfig.BUFFER_QUEUE;
 
-//@Component
+@Lazy
+@Component
 public class ArticleSaveTask {
-    @Autowired
+    @Resource
     @Qualifier("taskExecutor")
     private ThreadPoolTaskExecutor threadPoolTaskExecutor;
 
