@@ -29,7 +29,7 @@ public class UserController {
 
         //2.获取缓存中的用户数据
         List<User> users = userService.getUsers();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        SimpleDateFormat simpleDateFormat =  new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         //3.遍历详情集合，从缓存中获取用户名，生成VO进行填充
         ArrayList<UserVO> userVOS = new ArrayList<>();
         for (UserDetails userDetail : userDetails) {
