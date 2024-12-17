@@ -35,6 +35,7 @@ public class Student {
 
     public static void main(String[] args) throws IOException {
         Student student = new Student();
+
         System.out.println(Integer.toBinaryString(student.hashCode()));
         System.out.println(ClassLayout.parseInstance(student).toPrintable());
         System.in.read();

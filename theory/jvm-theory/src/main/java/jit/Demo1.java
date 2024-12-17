@@ -14,6 +14,7 @@ public class Demo1 {
         return sum;
     }
     public static void main(String[] args) {
-        new Demo1().jitTest();
+        int i = new Demo1().jitTest();
+        System.err.println(i);
     }
 }

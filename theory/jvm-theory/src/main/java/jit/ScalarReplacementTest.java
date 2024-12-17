@@ -6,8 +6,8 @@ public class ScalarReplacementTest {
     }
     public static void alloc(){
         for (int i = 0; i < 1000000; i++) {
-            //Point point = new Point();
-            //point.test();
+//            Point point = new Point();
+//            point.test();
             int x = 1;
             int y = 2;
             int z = x++;
