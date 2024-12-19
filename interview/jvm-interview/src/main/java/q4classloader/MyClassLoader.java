@@ -32,7 +32,7 @@ public class MyClassLoader extends ClassLoader{
 
         Class<?> clazz = myClassLoader.loadClass("com.itheima.springbootclassfile.pojo.vo.UserVO");
 
-        //打印字段
+        //打印字段a
         Field[] fields = clazz.getDeclaredFields();
         for (Field field : fields) {
             System.out.println(field.getName());
